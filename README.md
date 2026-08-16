@@ -5,6 +5,9 @@
 
 🎬 **A Claude Skill** for intelligent media file management that automatically detects and organizes your media library.
 
+[![English](https://img.shields.io/badge/Language-English-blue.svg)](README_EN.md) 
+[![中文](https://img.shields.io/badge/Language-中文-red.svg)](README_CH.md)
+
 ## 🌟 Overview
 
 MediaMind is a Claude skill that intelligently scans, categorizes, and organizes your media files. It automatically recognizes TV shows, movies, and animations, creating a well-structured media library with minimal effort.
@@ -43,13 +46,6 @@ python mediamind.py --help
 - **TV Shows** - Automatic season/episode detection
 - **Movies** - Smart categorization and naming
 - **Animations** - Flexible classification system
-
-## 📄 Language Support
-
-[![English](https://img.shields.io/badge/Language-English-blue.svg)](README_EN.md) 
-[![中文](https://img.shields.io/badge/Language-中文-red.svg)](README_CH.md)
-
-Choose your preferred language for complete documentation.
 
 ## 🔧 Installation
 
