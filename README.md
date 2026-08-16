@@ -1,14 +1,18 @@
-# MediaMind - Smart Media Management Tool
+# MediaMind - Smart Media Management Skill
 
-🎬 An intelligent media file management tool that automatically detects and organizes your media library.
+![Claude Skills](https://img.shields.io/badge/Claude-Skills-blue)
+![Media Type](https://img.shields.io/badge/Media-Manager-green)
 
-[![English](https://img.shields.io/badge/Language-English-blue.svg)](EN.md) 
-[![中文](https://img.shields.io/badge/Language-中文-red.svg)](ZH.md)
+🎬 **A Claude Skill** for intelligent media file management that automatically detects and organizes your media library.
 
-## 🌟 Features
+## 🌟 Overview
+
+MediaMind is a Claude skill that intelligently scans, categorizes, and organizes your media files. It automatically recognizes TV shows, movies, and animations, creating a well-structured media library with minimal effort.
+
+## ✨ Key Features
 
 - ✅ **Auto Scan** - Records all media files
-- ✅ **Change Detection** - Identifies new, deleted, and modified files
+- ✅ **Change Detection** - Identifies new, deleted, and modified files  
 - ✅ **Smart Classification** - Automatically recognizes TV shows, movies, animations
 - ✅ **Auto Organization** - Creates standardized directory structure
 - ✅ **Incremental Updates** - Only processes changed files
@@ -27,28 +31,31 @@ python mediamind.py v:/media --scan-only
 python mediamind.py --help
 ```
 
-## 📄 Documentation
+## 🎯 How It Works
 
-Choose your preferred language:
+1. **Scan** - Analyze your media directories
+2. **Classify** - Identify TV shows, movies, animations
+3. **Organize** - Create standardized folder structures
+4. **Track** - Monitor changes and update incrementally
 
-- [🇺🇸 **English Version**](EN.md) - Complete documentation in English
-- [🇨🇳 **中文版本**](ZH.md) - 完整的中文文档
+## 📋 Supported Media
 
-## 🎯 What It Does
+- **TV Shows** - Automatic season/episode detection
+- **Movies** - Smart categorization and naming
+- **Animations** - Flexible classification system
 
-MediaMind automatically:
-- Scans your media directories for files
-- Identifies TV shows, movies, and animations
-- Creates organized folder structures
-- Tracks changes and updates incrementally
-- Provides detailed change reports
+## 📄 Language Support
 
-## 🤝 Contributing
+[![English](https://img.shields.io/badge/Language-English-blue.svg)](README_EN.md) 
+[![中文](https://img.shields.io/badge/Language-中文-red.svg)](README_CH.md)
 
-Issues and suggestions are welcome! Feel free to submit:
-- Bug reports
-- Feature requests
-- Pull requests
+Choose your preferred language for complete documentation.
+
+## 🔧 Installation
+
+1. Clone this skill repository
+2. Run with Python 3.6+
+3. No additional dependencies required
 
 ## 📄 License
 
@@ -56,4 +63,4 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-*Let MediaMind be your media manager!* 🎉
+*MediaMind - Making media management simple with Claude Skills!* 🎉
